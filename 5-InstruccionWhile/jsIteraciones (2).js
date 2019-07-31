@@ -2,15 +2,15 @@ function mostrar()
 
 
 {
-	var num = 10;
-while (num > 0)
-{
+	var num =11;
 
-	console.log(num);
+	do{
 
-num-- ;
 
-}	
+num--;
 
+console.log (num);
+
+	}while (num>0);
 
 }//FIN DE LA FUNCIÓN

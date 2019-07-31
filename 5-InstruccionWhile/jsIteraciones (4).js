@@ -1,14 +1,14 @@
 function mostrar()
 {
+	var num = parseInt(prompt("Ingrese un numero"));
+	
+do {
+prompt("Error. Vuelta a ingresar un numero");
 
-	var numero = parseInt( prompt("ingrese un número entre 0 y 10."));
 
-while (!(numero >=0 && numero <= 10))
+}while (num <-1 && num > 10);
 
-{
-numero = parseInt(prompt("Ingrese nuevamente el numero"));
 
-}
+document.getElementById("Numero").value = num;	
 
-document.getElementById("Numero").value = numero;
 }//FIN DE LA FUNCIÓN

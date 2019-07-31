@@ -1,14 +1,10 @@
 function mostrar()
 
 {
-var num = 1;
+for (var num = 1 ; num < 11; num++){
 
-while ( num <= 10)
-{
 
-console.log(num);
+console.log (num);
 
-num= num+1;
 }
-
 }//FIN DE LA FUNCIÓN
